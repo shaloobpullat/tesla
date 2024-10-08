@@ -1,0 +1,233 @@
+*{
+   
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+body{
+    width: -20px;
+}
+
+.logo img{
+    width: 125px;
+    height: 25px;
+    position: fixed;
+}
+header{
+    display: flex;
+    width: 1420px;
+    height: 40px;
+    margin-top: 20px;
+    position:fixed;
+    margin-left: 40px;
+    margin-right: 40px;
+    overflow: hidden;
+    
+}
+.rightnav{ 
+    width: 180px;
+    height: 40px;
+    display: flex;
+    margin-left: 370px;
+    margin-top: 7px;
+    
+}
+.rightnav img{
+    width: 30px;
+    height: 30px;
+    padding:  0 10px;
+}
+.navigation{
+    margin-left: 512px;
+    align-items: center;
+    margin-top: 10px; 
+    display: flex;
+    
+}
+.navigation a{
+    padding: 0 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size:small ;
+}
+.navigation a:hover{
+    border-bottom: 2px solid red;
+}
+.image1{
+    width: 100%;
+    height: 100vh;  
+    display: flex;
+    position: absolute;
+    z-index: -1;
+
+}
+.image1 img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+    
+}
+.heading{
+    text-align: center;
+    padding-top: 15vh;
+    
+}
+.heading h1{
+    font-size:50px;
+    font-weight:600;
+    color: white;
+}
+.heading span a{
+    cursor: pointer;
+    color: white;
+    font-size:x-large;
+    font-weight: 700;
+    text-decoration: underline;
+    text-underline-position: under;
+    text-decoration-thickness: 1px;
+    
+}
+.heading span a:hover{
+    text-decoration-thickness: 2px;
+
+}
+.doller{
+    margin-top: 5px;
+    color: white;
+    font-weight: 600    ;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-top:58vh;
+
+}
+.demo{
+    margin: 8px;
+    background-color:white;
+    width: 280px;
+    height: 30px;
+    padding-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.demo span{
+    color:black;
+    font-size: small;
+    font-weight: 600;
+}
+.order{
+    margin: 8px;
+    background-color: #019BFA;
+    width: 280px;
+    height: 30px;
+    padding-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+.order span{
+    color: white;
+    font-size: small;
+    font-weight: 600;
+}
+#modelxrate{
+    cursor: pointer;
+    color: white;
+    font-size:x-large;
+    font-weight: 700;
+}
+.sup{
+    font-size: xx-small;
+}
+#modelxtax{
+    
+    color: white;
+    font-weight: 600;
+    font-size:medium;
+}
+.cybertrucklogo img {
+    width: 450px;
+    height: 150px;
+    margin-top: -30px;
+
+}
+#foundation img{
+    width: 250px;
+    height: 60px;
+    margin-top: -25px;
+    margin-left: 15px;
+
+}
+.buttoncyber{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-top:48vh;
+
+}
+.ordercyber{
+    margin: 8px;
+    background-color:rgb(0, 0, 0,0.8);
+    width: 280px;
+    height: 30px;
+    padding-top: 10px;
+    border-top:2px solid white;
+    cursor: pointer;
+
+}
+.democyber{
+    margin: 8px;
+    background-color:rgb(0, 0, 0,0.8);
+    width: 280px;
+    height: 30px;
+    padding-top: 10px;
+    cursor: pointer;  
+}
+.ordercyber span{
+    color: white;
+    font-size: small;
+    font-weight: 600;
+}
+.democyber span{
+    color:rgb(255, 255, 255);
+    font-size: small;
+    font-weight: 600;
+}
+.ordercyber:hover{
+    background-color: rgb(0, 0, 0,0.7);
+}
+.democyber:hover{
+    background-color: rgb(0, 0, 0,0.7);
+}
+.blackbg{
+   background: #000;
+   flex-direction: column;
+}
+.blackbg div{
+    color: aliceblue;
+    font-size: smaller;
+    width: 600px;
+    height: 450px;
+    text-align: center;
+    padding-top: 25px;
+}
+footer{
+    width: 100%;
+    height: 200px;
+}
+#lastfooter{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-left: 30px;
+    
+ 
+}
+#parafoot{
+    margin-left: 32%;
+    line-height: 1.2;
+}
